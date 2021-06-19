@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import IDCard from './IDCard/IDCard.js';
 import Greetings from './greetings/Greetings.js';
-import Random from './random/Random.js';
+import Random from './random/random.js';
 import './App.css';
 
 function App() {
