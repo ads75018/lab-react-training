@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import IDCard from './IDCard/IDCard.js';
 import Greetings from './greetings/Greetings.js';
+import Random from './random/Random.js';
 import './App.css';
 
 function App() {
@@ -24,9 +25,12 @@ function App() {
         birth={new Date('1988-05-11')}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
-      <hr/>
+      <hr />
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
+      <hr />
+      <Random min={1} max={6} />
+      <Random min={1} max={100} />
     </div>
   );
 }
