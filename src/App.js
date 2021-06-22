@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import IDCard from './IDCard/IDCard.js';
 import Greetings from './greetings/Greetings.js';
 import Random from './random/random.js';
+import BoxColor from './boxColor/BoxColor'
 import './App.css';
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
       <hr />
       <Random min={1} max={6} />
       <Random min={1} max={100} />
+      <hr />
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
+      <hr />
     </div>
   );
 }
